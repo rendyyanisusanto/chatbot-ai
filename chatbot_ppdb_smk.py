@@ -60,7 +60,7 @@ def get_answer(user_question):
     # Jika tidak ditemukan jawaban yang cocok
     return "Maaf, saya belum memiliki informasi untuk pertanyaan tersebut. Silakan hubungi panitia PPDB SMK untuk info lebih lanjut."
 
-st.title("Chatbot PPDB SMK")
+st.title("Chatbot PPDB SMK RASTER AI")
 st.write("Selamat datang di Chatbot PPDB SMK. Silakan ajukan pertanyaan Anda seputar pendaftaran siswa baru SMK.")
 
 if "chat_history" not in st.session_state:
